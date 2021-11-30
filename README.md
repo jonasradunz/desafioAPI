@@ -31,6 +31,7 @@ services.AddDbContext<CadastroCRUDContext>(options => options.UseInMemoryDatabas
 ```
 
 Na próxima etapa, será implementada a opção de persistir e obter dados de um banco no SQL Server.
+Foram utilizadas validações para as entradas do usuário ao persistir dados no banco.
 
 ## Referências
 
